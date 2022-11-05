@@ -33,8 +33,8 @@ namespace Homework1_4_2
                 ConsoleColor defaultColor = Console.BackgroundColor;
 
                 Console.Write("[");
-                DrawLine(fullnessPercent, barColor, drawSymbol);
-                DrawLine(maxValue - fullnessPercent, defaultColor, drawSymbol);
+                DrawLine(fullnessValue, barColor, drawSymbol);
+                DrawLine(maxValue - fullnessValue, defaultColor, drawSymbol);
                 Console.Write("]");
             }
         }
